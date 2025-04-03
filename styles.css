@@ -1,0 +1,326 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #1ac05f;
+    background: url('C:/Users/PC/Desktop/Hackathon 1/pexels-matt-richmond-314917881-31042266.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    
+
+}
+
+/* About Me Section Styles */
+#about {
+    background-color: rgb(131, 131, 250); /* Set background color to blue */
+    color: white; /* Set font color to white */
+    padding: 2rem; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+/*skills*/
+#skills {
+    background-color: rgb(90, 227, 236); /* Set background color to blue */
+    color: rgb(14, 2, 2); /* Set font color to black */
+    padding: 2rem; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+/*education*/
+#education {
+    background-color:#f0e3cb; /* Set background color to orange */
+    color:black; /* Set font color to black */
+    padding: 2rem; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+/*projects*/
+#projects {
+    background-color: rgb(144, 184, 156); /* Set background color to green */
+    color:black; /* Set font color to black */
+    padding: 2rem; /* Add padding for spacing */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+/* Center the CV download link in the Education section */
+#education .center-link {
+    display: block; /* Makes the link behave like a block element */
+    text-align: center; /* Centers the text */
+    margin: 2rem auto 0; /* Adds spacing above the link and centers it */
+    font-weight: bold; /* Makes the text bold */
+    color: green; /* Set the text color to green */
+    text-decoration: none; /* Removes underline */
+}
+
+#education .center-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: darkgreen; /* Changes color to dark green on hover */
+}
+/* Style for all legends */
+fieldset legend {
+    font-weight: bold; /* Make the text bold */
+    color: rgb(231, 26, 163); /* Set the font color to red */
+    font-size: 1.5rem; /* Optional: Adjust the font size */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+}
+/* Style for the legend in the About Me section */
+#about legend {
+    color: white; /* Set the font color to white */
+    font-weight: bold; /* Keep the text bold */
+    font-size: 1.5rem; /* Optional: Adjust the font size */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+}
+/* Center the profile picture */
+.profile-pic {
+    display: block;
+    float: left; /* Floats the image to the left */
+    margin-right: 1rem; /* Adds spacing to the right of the image */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+    border-radius: 100%; /* Optional: Makes the image circular */
+    max-width: 180px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    background-color: blanchedalmond;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(36, 37, 37);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bolder;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bolder;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+section p, section ul {
+    margin: 1rem 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Skills List */
+#skills ul {
+    list-style:none;
+    padding: 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#skills ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Contact Form */
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+    
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(20, 228, 107);
+}
+
+form button:hover {
+    background: #5a5858;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #7ca77c;
+    color: #fff;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p {
+    margin: 0;
+}
+.center-link {
+    display: block; /* Makes the link behave like a block element */
+    text-align: center; /* Centers the text */
+    margin: 1rem auto; /* Adds spacing and centers the block */
+    font-weight: bold; /* Optional: Makes the text bold */
+    color: #333; /* Optional: Adjust the color */
+    text-decoration: none; /* Removes underline */
+}
+
+.center-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #555; /* Optional: Changes color on hover */
+}
+/* Style for ordered list */
+ol {
+    counter-reset: list-counter; /* Reset the counter */
+    list-style: none; /* Remove default numbering */
+    padding-left: 0;
+}
+
+ol > li {
+    counter-increment: list-counter; /* Increment the counter */
+    margin-bottom: 1rem;
+}
+
+ol > li::before {
+    content: counter(list-counter) ". "; /* Add custom numbering */
+    font-weight: bold;
+    color: #333;
+}
+
+ol > li > strong {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+/* Style for nested unordered list */
+ol ul {
+    list-style: none; /* Remove bullets */
+    padding-left: 1.5rem;
+}
+
+ol ul li {
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+
+ol ul li::before {
+    content: "•"; /* Add a bullet */
+    position: absolute;
+    left: -1rem;
+    color: #555;
+}
+/* Style for main headings in ordered list */
+ol > li > strong {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color:brown; /* Set the color to white */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Capitalize the text */
+}
+/* Contact Buttons */
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #0073b1; /* Default LinkedIn blue */
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.contact-button:hover {
+    background-color: #005582; /* Darker shade for hover effect */
+}
+
+/* WhatsApp Button */
+.contact-button[href*="wa.me"] {
+    background-color: #25d366; /* WhatsApp green */
+}
+
+.contact-button[href*="wa.me"]:hover {
+    background-color: #1da851; /* Darker WhatsApp green */
+}
+
+/* Email Button */
+.contact-button[href*="mailto:"] {
+    background-color: #d44638; /* Email red */
+}
+
+.contact-button[href*="mailto:"]:hover {
+    background-color: #b03024; /* Darker Email red */
+}
+
+/* Phone Call Button */
+.contact-button[href*="tel:"] {
+    background-color: #34b7f1; /* Light blue for phone */
+}
+
+.contact-button[href*="tel:"]:hover {
+    background-color: #2288c3; /* Darker blue for phone */
+}
